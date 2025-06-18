@@ -15,13 +15,13 @@ Android 复习知识树
 │   │   ├── [ ] 1.1.8 Java 多线程与并发 (Thread, Runnable, Callable, 线程池, synchronized, Lock, volatile, AQS) (*)
 │   │   └── [ ] 1.1.9 JVM 内存模型与 GC 机制 (概览) (*)
 │   ├── 1.2 Kotlin 核心特性 (重点)
-│   │   ├── [ ] 1.2.1 Kotlin 与 Java 互操作性 (深入)
-│   │   ├── [ ] 1.2.2 Kotlin 空安全机制 (? !!, ?., ?:, let 等) (深入)
-│   │   ├── [ ] 1.2.3 Kotlin 函数式编程 (Lambda, 高阶函数) (深入)
-│   │   ├── [ ] 1.2.4 Kotlin 扩展函数与属性 (深入)
-│   │   ├── [ ] 1.2.5 Kotlin 数据类 (data class) 与密封类 (sealed class) (深入)
-│   │   ├── [ ] 1.2.6 Kotlin 对象声明与伴生对象 (深入)
-│   │   └── [ ] 1.2.7 Kotlin 委托属性 (by lazy, by Delegates.observable 等) (深入)
+│   │   ├── [X] 1.2.1 Kotlin 与 Java 互操作性 (深入)
+│   │   ├── [X] 1.2.2 Kotlin 空安全机制 (? !!, ?., ?:, let 等) (深入)
+│   │   ├── [X] 1.2.3 Kotlin 函数式编程 (Lambda, 高阶函数) (深入)
+│   │   ├── [X] 1.2.4 Kotlin 扩展函数与属性 (深入)
+│   │   ├── [X] 1.2.5 Kotlin 数据类 (data class) 与密封类 (sealed class) (深入)
+│   │   ├── [X] 1.2.6 Kotlin 对象声明与伴生对象 (深入)
+│   │   └── [X] 1.2.7 Kotlin 委托属性 (by lazy, by Delegates.observable 等) (深入)
 │   ├── 1.3 Kotlin 协程 (Coroutines)
 │   │   ├── [X] 1.3.1 协程基础 (suspend, CoroutineScope, Job, Deferred, Dispatchers) (原1.2.8，已概览)
 │   │   ├── [X] 1.3.2 结构化并发与协程生命周期管理 (深入) (*)
@@ -40,30 +40,30 @@ Android 复习知识树
 │
 ├── 2. Android 核心组件
 │   ├── 2.1 Activity
-│   │   ├── [ ] 2.1.1 Activity 生命周期 (各回调方法) (深入)
-│   │   ├── [ ] 2.1.2 Activity 启动模式与任务栈 (深入)
-│   │   ├── [ ] 2.1.3 Activity 状态保存与恢复 (onSaveInstanceState, ViewModel) (深入)
-│   │   └── [ ] 2.1.4 Activity 间通信 (Intent, Bundle, ActivityResultLauncher) (深入)
+│   │   ├── [X] 2.1.1 Activity 生命周期 (各回调方法) (深入)
+│   │   ├── [X] 2.1.2 Activity 启动模式与任务栈 (深入)
+│   │   ├── [X] 2.1.3 Activity 状态保存与恢复 (onSaveInstanceState, ViewModel) (深入)
+│   │   └── [X] 2.1.4 Activity 间通信 (Intent, Bundle, ActivityResultLauncher) (深入)
 │   ├── 2.2 Fragment
-│   │   ├── [ ] 2.2.1 Fragment 生命周期与 Activity 关系 (深入)
-│   │   ├── [ ] 2.2.2 Fragment 与 Activity 通信方式 (深入)
-│   │   └── [ ] 2.2.3 FragmentManager 与 FragmentTransaction (深入)
+│   │   ├── [X] 2.2.1 Fragment 生命周期与 Activity 关系 (深入)
+│   │   ├── [X] 2.2.2 Fragment 与 Activity 通信方式 (深入)
+│   │   └── [X] 2.2.3 FragmentManager 与 FragmentTransaction (深入)
 │   ├── 2.3 Service
-│   │   ├── [ ] 2.3.1 Service 生命周期与启动方式 (startService, bindService) (深入)
-│   │   ├── [ ] 2.3.2 前台服务 (Foreground Service) (深入)
-│   │   ├── [ ] 2.3.3 IntentService (概念与替代方案) (深入)
-│   │   └── [ ] 2.3.4 AIDL与Binder机制 (IPC核心) (*)
+│   │   ├── [X] 2.3.1 Service 生命周期与启动方式 (startService, bindService) (深入)
+│   │   ├── [X] 2.3.2 前台服务 (Foreground Service) (深入)
+│   │   ├── [X] 2.3.3 IntentService (概念与替代方案) (深入)
+│   │   └── [X] 2.3.4 AIDL与Binder机制 (IPC核心) (*)
 │   ├── 2.4 BroadcastReceiver
-│   │   ├── [ ] 2.4.1 静态注册与动态注册 (深入)
-│   │   ├── [ ] 2.4.2 有序广播与无序广播 (深入)
+│   │   ├── [X] 2.4.1 静态注册与动态注册 (深入)
+│   │   ├── [X] 2.4.2 有序广播与无序广播 (深入)
 │   │   └── [ ] 2.4.3 本地广播 (LocalBroadcastManager - 废弃与替代) (*)
 │   ├── 2.5 ContentProvider
-│   │   ├── [ ] 2.5.1 ContentProvider 作用与 URI (深入)
-│   │   └── [ ] 2.5.2 ContentResolver 使用 (深入)
+│   │   ├── [X] 2.5.1 ContentProvider 作用与 URI (深入)
+│   │   └── [X] 2.5.2 ContentResolver 使用 (深入)
 │   └── 2.6 Handler 消息机制
-│       ├── [ ] 2.6.1 Handler, Looper, MessageQueue, Message 核心原理与应用 (深入)
-│       ├── [ ] 2.6.2 Handler 内存泄漏分析与最佳实践 (*)
-│       └── [ ] 2.6.3 HandlerThread 与 AsyncTask (缺陷与现代替代方案回顾) (*)
+│       ├── [X] 2.6.1 Handler, Looper, MessageQueue, Message 核心原理与应用 (深入)
+│       ├── [X] 2.6.2 Handler 内存泄漏分析与最佳实践 (*)
+│       └── [X] 2.6.3 HandlerThread 与 AsyncTask (缺陷与现代替代方案回顾) (*)
 │
 ├── 3. UI 与视图系统
 │   ├── 3.1 View 绘制
@@ -74,9 +74,9 @@ Android 复习知识树
 │   │   ├── [ ] 3.2.2 ConstraintLayout (特性、优势、使用技巧) (深入)
 │   │   └── [ ] 3.2.3 CoordinatorLayout 与 AppBarLayout, CollapsingToolbarLayout (深入)
 │   ├── 3.3 RecyclerView
-│   │   ├── [ ] 3.3.1 RecyclerView 核心组件 (Adapter, ViewHolder, LayoutManager) (深入)
-│   │   ├── [ ] 3.3.2 RecyclerView 优化 (DiffUtil, 局部刷新, 分页加载等) (深入)
-│   │   └── [ ] 3.3.3 RecyclerView 多种 Item 类型处理 (深入)
+│   │   ├── [X] 3.3.1 RecyclerView 核心组件 (Adapter, ViewHolder, LayoutManager) (深入)
+│   │   ├── [X] 3.3.2 RecyclerView 优化 (DiffUtil, 局部刷新, 分页加载等) (深入)
+│   │   └── [X] 3.3.3 RecyclerView 多种 Item 类型处理 (深入)
 │   ├── 3.4 自定义 View
 │   │   ├── [ ] 3.4.1 自定义 View 概览 (继承 View/ViewGroup, 核心方法) (深入)
 │   │   └── [ ] 3.4.2 自定义属性 (attrs.xml, TypedArray) (深入)
@@ -92,15 +92,15 @@ Android 复习知识树
 │   ├── 3.7 Material Design Components
 │   │   └── [ ] 3.7.1 Material Design Components 简介与常用组件 (深入)
 │   └── 3.8 Jetpack Compose
-│       ├── [ ] 3.8.1 Compose 核心思想 (声明式UI, @Composable 函数, 状态驱动) (*)
-│       ├── [ ] 3.8.2 Compose 布局 (Column, Row, Box, ConstraintLayout, Modifiers) (*)
-│       ├── [ ] 3.8.3 Compose 状态管理 (remember, mutableStateOf, ViewModel 与 State hoisting) (*)
-│       ├── [ ] 3.8.4 Compose 副作用处理 (LaunchedEffect, SideEffect, DisposableEffect) (*)
-│       ├── [ ] 3.8.5 Compose 主题与样式 (MaterialTheme, Typography, Colors, Shapes) (*)
-│       ├── [ ] 3.8.6 Compose 动画与手势 (*)
-│       ├── [ ] 3.8.7 Compose 导航 (Navigation for Compose) (*)
-│       ├── [ ] 3.8.8 Compose 与传统 View 互操作 (*)
-│       └── [ ] 3.8.9 Compose 性能优化与调试技巧 (*)
+│       ├── [X] 3.8.1 Compose 核心思想 (声明式UI, @Composable 函数, 状态驱动) (*)
+│       ├── [X] 3.8.2 Compose 布局 (Column, Row, Box, ConstraintLayout, Modifiers) (*)
+│       ├── [X] 3.8.3 Compose 状态管理 (remember, mutableStateOf, ViewModel 与 State hoisting) (*)
+│       ├── [X] 3.8.4 Compose 副作用处理 (LaunchedEffect, SideEffect, DisposableEffect) (*)
+│       ├── [X] 3.8.5 Compose 主题与样式 (MaterialTheme, Typography, Colors, Shapes) (*)
+│       ├── [X] 3.8.6 Compose 动画与手势 (*)
+│       ├── [X] 3.8.7 Compose 导航 (Navigation for Compose) (*)
+│       ├── [X] 3.8.8 Compose 与传统 View 互操作 (*)
+│       └── [X] 3.8.9 Compose 性能优化与调试技巧 (*)
 │
 ├── 4. 数据存储与处理
 │   ├── 4.1 SharedPreferences
@@ -116,13 +116,13 @@ Android 复习知识树
 │
 ├── 5. 网络编程
 │   ├── 5.1 HTTP/HTTPS 基础
-│   │   └── [ ] 5.1.1 HTTP/HTTPS 基础概念 (请求方法, 状态码, URL, 头部) (深入)
+│   │   └── [X] 5.1.1 HTTP/HTTPS 基础概念 (请求方法, 状态码, URL, 头部) (深入)
 │   ├── 5.2 OkHttp
-│   │   ├── [ ] 5.2.1 OkHttp 核心功能与优势 (深入)
-│   │   └── [ ] 5.2.2 OkHttp 拦截器 (Interceptor) 机制与应用 (深入)
+│   │   ├── [X] 5.2.1 OkHttp 核心功能与优势 (深入)
+│   │   └── [X] 5.2.2 OkHttp 拦截器 (Interceptor) 机制与应用 (深入)
 │   ├── 5.3 Retrofit
-│   │   ├── [ ] 5.3.1 Retrofit 原理 (动态代理, 注解) 与 OkHttp 关系 (深入)
-│   │   └── [ ] 5.3.2 Retrofit Converter 与 CallAdapter (深入)
+│   │   ├── [X] 5.3.1 Retrofit 原理 (动态代理, 注解) 与 OkHttp 关系 (深入)
+│   │   └── [X] 5.3.2 Retrofit Converter 与 CallAdapter (深入)
 │   ├── 5.4 JSON 解析
 │   │   └── [ ] 5.4.1 JSON 解析库概览 (Gson/Moshi/org.json) (深入)
 │   ├── 5.5 图片加载库
@@ -132,41 +132,41 @@ Android 复习知识树
 │
 ├── 6. 架构设计与模式
 │   ├── 6.1 常用架构模式
-│   │   ├── [ ] 6.1.1 MVC, MVP, MVVM 模式概念与对比 (深入)
-│   │   └── [ ] 6.1.2 ViewModel 与 LiveData/StateFlow 在 MVVM 中的角色 (深入)
+│   │   ├── [X] 6.1.1 MVC, MVP, MVVM 模式概念与对比 (深入)
+│   │   └── [X] 6.1.2 ViewModel 与 LiveData/StateFlow 在 MVVM 中的角色 (深入)
 │   ├── 6.2 Clean Architecture
-│   │   └── [ ] 6.2.1 Clean Architecture 分层思想概览 (深入)
+│   │   └── [X] 6.2.1 Clean Architecture 分层思想概览 (深入)
 │   ├── 6.3 SOLID 原则
-│   │   └── [ ] 6.3.1 SOLID 原则概览及其在 Android 中的应用 (深入)
+│   │   └── [X] 6.3.1 SOLID 原则概览及其在 Android 中的应用 (深入)
 │   └── 6.4 依赖注入 (DI)
-│       ├── [ ] 6.4.1 依赖注入 (DI) 原理与好处 (深入)
-│       └── [ ] 6.4.2 Dagger2/Hilt 核心概念与使用 (Component, Module, Provides, Inject, Scope) (深入)
+│       ├── [X] 6.4.1 依赖注入 (DI) 原理与好处 (深入)
+│       └── [X] 6.4.2 Dagger2/Hilt 核心概念与使用 (Component, Module, Provides, Inject, Scope) (深入)
 │
 ├── 7. 性能优化
 │   ├── 7.1 UI 渲染优化
-│   │   ├── [ ] 7.1.1 UI 渲染优化方向 (过度绘制, 布局层级) (深入)
-│   │   └── [ ] 7.1.2 卡顿检测与分析工具 (Profiler, Systrace/Perfetto, JankStats) (深入)
+│   │   ├── [X] 7.1.1 UI 渲染优化方向 (过度绘制, 布局层级) (深入)
+│   │   └── [X] 7.1.2 卡顿检测与分析工具 (Profiler, Systrace/Perfetto, JankStats) (深入)
 │   ├── 7.2 内存优化
-│   │   ├── [ ] 7.2.1 内存优化方向 (内存泄漏, Bitmap优化, 数据结构) (深入)
-│   │   └── [ ] 7.2.2 LeakCanary 原理与使用 (*)
+│   │   ├── [X] 7.2.1 内存优化方向 (内存泄漏, Bitmap优化, 数据结构) (深入)
+│   │   └── [X] 7.2.2 LeakCanary 原理与使用 (*)
 │   ├── 7.3 启动优化
-│   │   ├── [ ] 7.3.1 启动优化方向 (冷/温/热启动分析, SplashScreen, Baseline Profiles, App Startup) (深入)
+│   │   ├── [X] 7.3.1 启动优化方向 (冷/温/热启动分析, SplashScreen, Baseline Profiles, App Startup) (深入)
 │   ├── 7.4 电量优化
-│   │   └── [ ] 7.4.1 电量优化方向 (WakeLock, JobScheduler/WorkManager, Doze, App Standby) (深入)
+│   │   └── [X] 7.4.1 电量优化方向 (WakeLock, JobScheduler/WorkManager, Doze, App Standby) (深入)
 │   ├── 7.5 APK 大小优化
-│   │   └── [ ] 7.5.1 APK 大小优化方向 (ProGuard/R8, 资源优化, App Bundle) (深入)
+│   │   └── [X] 7.5.1 APK 大小优化方向 (ProGuard/R8, 资源优化, App Bundle) (深入)
 │   └── 7.6 线程优化
-│       ├── [ ] 7.6.1 ANR 分析与解决 (深入)
-│       └── [ ] 7.6.2 线程池的合理配置与使用 (*)
+│       ├── [X] 7.6.1 ANR 分析与解决 (深入)
+│       └── [X] 7.6.2 线程池的合理配置与使用 (*)
 │
 ├── 8. Jetpack 核心组件 (回顾与补充)
-│   ├── [ ] 8.1.1 ViewModel 核心作用与生命周期感知 (已在6.1.2中深入，可视为回顾)
-│   ├── [ ] 8.2.1 LiveData/Flow (StateFlow, SharedFlow) 可观察数据与生命周期 (已在6.1.2中深入，可视为回顾)
-│   ├── [ ] 8.3.1 Navigation Component 核心作用与导航图 (深入)
-│   ├── [ ] 8.4.1 WorkManager 核心作用与后台任务调度 (深入)
-│   ├── [ ] 8.5.1 Paging 3 核心作用与分页加载 (深入)
-│   └── [ ] 8.6.1 Lifecycle-aware Components 概览 (LifecycleObserver, LifecycleOwner) (*)
-│   └── [ ] 8.7.1 Data Binding 与 View Binding 概览与对比 (*)
+│   ├── [X] 8.1.1 ViewModel 核心作用与生命周期感知 (已在6.1.2中深入，可视为回顾)
+│   ├── [X] 8.2.1 LiveData/Flow (StateFlow, SharedFlow) 可观察数据与生命周期 (已在6.1.2中深入，可视为回顾)
+│   ├── [X] 8.3.1 Navigation Component 核心作用与导航图 (深入)
+│   ├── [X] 8.4.1 WorkManager 核心作用与后台任务调度 (深入)
+│   ├── [X] 8.5.1 Paging 3 核心作用与分页加载 (深入)
+│   └── [X] 8.6.1 Lifecycle-aware Components 概览 (LifecycleObserver, LifecycleOwner) (*)
+│   └── [X] 8.7.1 Data Binding 与 View Binding 概览与对比 (*)
 │
 ├── 9. 测试
 │   ├── 9.1 单元测试
